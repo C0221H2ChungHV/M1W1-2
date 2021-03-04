@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<title>Order Form</title>
+	</head>
+	<body>
+	    <h1> <p style="font-family: 'Lucida Grande'"> Order Form</p></h1> <br/>
+	    <p style="font-family:'Lucida Sans Unicode'"> What would you like to buy? </p>
+	     <select name="Menu"><!--Sử dụng thuộc tính multiple để cho phép chọn nhiều.
+-->
+            <option value="Black coffee"> Cafe đen</option>
+            <option value="Milk coffee">cafe sữa</option>
+            <option value="Milk tea">Trà sữa</option>
+         </select>
+        <form action="/actione_page.php">
+	                <p style="font-family:'Lucida Sans Unicode'""> How many woud you like to order? </p>
+	                <label><input name="codegym" value="1 - $10" type="radio" /> 1 - $10 </label> <br/>
+	               	<label><input name="codegym" value="2 - $20" type="radio"/> 2 - $20 </label> <br/>
+	               	<label><input name ="codegym" value="3 - $25" type="radio" /> 3 - $25 </label> <br/>
+	    </form>
+	</body>
+</html>

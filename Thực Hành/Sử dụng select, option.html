@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<title>Sử dụng select, option</title>
+	</head>
+	<body>
+	     <p>Thẻ "select" được sử dụng chung với thẻ "option" để tạo một danh sách drop-down hoặc list, cho phép chọn một hoặc nhiều hạng mục từ một danh sách có sẵn.
+
+         Chúng ta cùng phân biệt giữa một số điều khiển:</p>
+         <ul>
+         	<li>checkbox: lựa chọn nhiều hạng mục từ một danh sách</li>
+         	<li>radio: lựa chọn một hạng mục từ một danh sách. Hiển thị toàn bộ danh sách cho người dùng thấy ngay từ đầu. Sử dụng tốt trong trường hợp có ít lựa chọn.</li>
+         	<li>drop-down: lựa chọn một hạng mục từ một danh sách. Chỉ hiển thị hạng mục hiện tại được chọn, còn lại các hạng mục khác đều bị ẩn. Toàn bộ danh sách chỉ hiển thị khi người dùng click chuột vào.</li>
+         	<li>list: lựa chọn nhiều hạng mục từ một danh sách.</li>
+         </ul>
+         <H1>Ví Dụ 1:</H1>
+         <p>Lựa chọn một thành phố từ drop-down:</p>
+         <select name="city">
+             <option value="HN">Hà Nội</option>
+             <option value="HP">Hải Phòng</option>
+             <option value="HU">Huế</option>
+             <option value="DN">Đà Nẵng</option>
+             <option value="SG">Sài Gòn</option>
+         </select>
+         <h1>Ví dụ 2: </h1>
+         <p>Lựa chọn nhiều thành phố từ list:</p>
+         <select name="city" multiple><!--Sử dụng thuộc tính multiple để cho phép chọn nhiều.
+-->
+            <option value="HN">Hà Nội</option>
+            <option value="HP">Hải Phòng</option>
+            <option value="HU">Huế</option>
+            <option value="DN">Đà Nẵng</option>
+            <option value="SG">Sài Gòn</option>
+         </select>
+	</body>
+</html>

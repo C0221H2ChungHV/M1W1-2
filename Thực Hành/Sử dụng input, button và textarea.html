@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<title>Sử dụng input, button và textarea</title>
+	</head>
+	<body>
+		<ol>
+		<H1>Thẻ Input</H1>
+		       <li> <h2>Input text</h2> </li>
+		         <p>Dùng để nhập dữ liệu chuỗi ngắn (trên 1 dòng).</p>
+		            <form action="/action_page.php">
+                     Account:
+                      <input name="account" type="text"/>
+                    </form>
+	           <li> <h2>Input Password</h2> </li>
+	              <p>Dùng để nhập vào mật khẩu.</p>
+	                <form action="/action_pagr.php">
+	           	     Password:
+	           	      <input name="password" type="password"/>
+	              </form>
+	           <li>  <h2>Input Checkbox</h2> </li>
+	               <p>Dùng để chọn NHIỀU hạng mục từ ds</p>
+	                 <form action="/action_page.php">
+	               	 Sở thích: <br/>
+	               	<label><input name="hobby" value="travel" type="checkbox"/> Du lịch</label> <br/>
+	               	<label><input name="hobby" value="sport" type="checkbox"/>Thể Thao</label> <br/>
+	               	<label><input name ="hobby" value="cooking" type="checkbox"/> Nấu ăn </label> <br/>
+	               </form>
+	            <li> <h2>Input Radio</h2></li>  
+	                <p>Dùng để lựa chọn MỘT hạng mục từ ds">
+	                <form action="/actione_page.php">
+	                sở thích: <br/>
+	                <label><input name="hobby" value="travel" type="radio" /> Du lịch</label> <br/>
+	               	<label><input name="hobby" value="sport" type="radio"/>Thể Thao</label> <br/>
+	               	<label><input name ="hobby" value="cooking" type="radio" checked/> Nấu ăn </label> <br/>
+	                </form>
+	            <li><h2>Input Reset</h2></li> 
+	                <p>Dùng để xoá các giá trị trong một form, đưa về giá trị mặc định của chúng</p>   
+	                <form action="/action_page.php">
+                    Account: <input name="account" value="admin" type="text"/><br/>
+                    Sở thích:<br/>
+                    <label><input name="hobby" value="travel" type="radio" checked/> Du lịch</label> <br/>
+                    <label><input name="hobby" value="sport" type="radio"/> Thể thao</label> <br/>
+                    <label><input name="hobby" value="cooking" type="radio"/> Nấu ăn</label> <br/>
+                    <input type="reset" value="Reset"/>
+                    </form>
+                <li><h2>Input Hidden</h2></li>   
+                    <p>Dùng để chứa giá trị của form nhưng không hiển thị trên giao diện người dùng. Dữ liệu này cũng được đẩy lên server như bình thường</p> 
+                    <form method="POST">
+                    <input name="secret" value="admin" type="hidden"/>
+                    Account: <input name="account" value="admin" type="text"/><br/>
+                    Sở thích:<br/>
+                    <label><input name="hobby" value="travel" type="radio" checked/> Du lịch</label> <br/>
+                    <label><input name="hobby" value="sport" type="radio"/> Thể thao</label> <br/>
+                    <label><input name="hobby" value="cooking" type="radio"/> Nấu ăn</label> <br/>
+                    <input type="submit" value="Send data"/>
+                    </form>
+                <li><h2>Thẻ button</h2></li>  
+                    <p>Thẻ button được sử dụng để hiển thị một nút.
+                    Bên trong thẻ button thì chúng ta có thể đưa các nội dung khác vào, chẳng hạn như là chuỗi hoặc hình ảnh. Đây cũng chính là sự khác biệt so với việc sử dụng thẻ input button, bởi vì bên trong input button thì chỉ có thể chứa text.</p> 
+                    <form method="POST">
+                    <button type="button">
+                    <img src="http://codegym.vn/wp-content/uploads/2017/03/CodeGym-3-02-copy.jpg" width="200px"/>
+                    </button>
+                    </form>
+                <li><h2>Thẻ textarea</h2></li>  
+                    <p>Thẻ textarea được sử dụng để hiển thị trường nhập chuỗi dài (nhiều dòng).</p>  
+                    <form method="POST">
+                    <textarea cols="100" rows="4">Các em được hướng dẫn vào James để học bài  chưa? Chuẩn bị sẵn bài học + bài giảng + bài thực hành trước khi lên giờ lý thuyết. Với buổi ngày mai các em có hai khoá học online: Học các học + Kanban, các em hãy hoàn thiện nó có phản tư (đọc/nghe/ ghi chép cornel note). </textarea>
+                    </form>
+ 
+
+	    </ol>
+	</body>
+</html>
