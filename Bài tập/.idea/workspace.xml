@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bài tập HTML/Bài tập Tạo bảng đơn giản1.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bài tập HTML/Bài tập tạo lịch tháng.html" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -48,7 +48,9 @@
       <option name="presentableId" value="Default" />
       <updated>1614917681386</updated>
       <workItem from="1614917686973" duration="18814000" />
-      <workItem from="1615080721730" duration="8451000" />
+      <workItem from="1615080721730" duration="16739000" />
+      <workItem from="1615102156934" duration="2186000" />
+      <workItem from="1615106995374" duration="17000" />
     </task>
     <servers />
   </component>
