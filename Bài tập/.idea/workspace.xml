@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0c04190a-122b-443e-834d-008e8c7e7166" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Source/Table.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Source/Table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thực Hành/Bài tập tạo form đơn giản.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thực Hành/bảng" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Thực Hành/Thực hành Tạo bảng cơ bản.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bài tập HTML/Bài tập Tạo bảng đơn giản1.html" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -51,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614917681386</updated>
       <workItem from="1614917686973" duration="18814000" />
-      <workItem from="1615080721730" duration="2190000" />
+      <workItem from="1615080721730" duration="8451000" />
     </task>
     <servers />
   </component>
