@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script language="javascript">
+        function tinh_phan_du(a, b)
+        {
+            return a % b;
+        }
+
+        // Lấy thông tin từ người dùng
+        var a = parseInt(prompt("Nhập số a"));
+        var b = parseInt(prompt("Nhập số b"));
+
+        // Tính tổng
+        var phandu = tinh_phan_du(a, b);
+
+        // In ra màn hình
+        document.write("phần dư " + a + " % " + b + " là " + phandu);
+    </script>
+</body>
+</html>
