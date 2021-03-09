@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td>
+                <input type="text" name="number" width="120px" id="inputNum">
+        </td>
+        <td>
+            <select style="width: 100px" id="from">
+                <option value="23000">VietNam</option>
+                <option value="1">USD</option>
+            </select>
+        </td>
+        <td>
+            <select style="width: 100px" id="to">
+                <option value="1">USD</option>
+                <option value="23000">VietNam</option>
+            </select>
+        </td>
+        <td>
+          <button style="background-color: mediumpurple; color: white" onclick="Chuyen_doi()">Convert</button>
+        </td>
+    </tr>
+</table>
+<p style="color: blue" id="Result">Result :</p>
+<script>
+    function Chuyen_doi() {
+        let a = document.getElementById("inputNum").value;
+        let b = document.getElementById("from").value;
+        let c = document.getElementById("to").value;
+        ketqua = (a*c)/b;
+        document.getElementById("Result").innerHTML = ketqua;
+    }
+</script>
+</body>
+</html>

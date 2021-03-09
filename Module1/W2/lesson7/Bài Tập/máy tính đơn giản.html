@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<input type="text" id="sothunhat"> <input type="text" id="sothuhai"><br/>
+<br/>
+<button onclick="phep_cong()">Addition(+)</button> <button onclick="phep_tru()">Subtraction(-)</button> <button onclick="phep_nhan()">Multiplication(*)</button> <button  onclick="phep_chia()">Divison(/)</button>
+<script>
+    function phep_cong() {
+        var a = parseInt(document.getElementById("sothunhat").value);
+        var b = parseInt(document.getElementById("sothuhai").value);
+        let tong = a+b;
+        alert("Kết quả của phép cộng là:" +tong);
+    };
+    function phep_tru() {
+        var a = parseInt(document.getElementById("sothunhat").value);
+        var b = parseInt(document.getElementById("sothuhai").value);
+        let hieu = a-b;
+        alert("Kết quả của phép trừ là:" +hieu);
+    };
+    function phep_nhan() {
+        var a = parseInt(document.getElementById("sothunhat").value);
+        var b = parseInt(document.getElementById("sothuhai").value);
+        let tich = a*b;
+        alert("Kết quả của phép nhân là:" +tich);
+    };
+    function  phep_chia() {
+        var a = parseInt(document.getElementById("sothunhat").value);
+        var b = parseInt(document.getElementById("sothuhai").value);
+        let thuong=a/b;
+        alert("Kết quả của phép chia là:" +thuong);
+    };
+</script>
+</body>
+</html>
